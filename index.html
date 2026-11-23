@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>PulseNote Privacy Policy | 声记隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #fbfaf7;
+      --text: #222631;
+      --muted: #525865;
+      --link: #184c91;
+      --divider: #cacbd0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #191b20;
+        --text: #eceef3;
+        --muted: #b9c0cf;
+        --link: #9ac9ff;
+        --divider: #595e6b;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font: 1rem/1.65 system-ui, sans-serif;
+      overflow-wrap: anywhere;
+    }
+    main { max-width: 46rem; margin: auto; padding: 2.5rem 1.25rem 4rem; }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: clamp(1.9rem, 6vw, 2.75rem); margin: 0.5rem 0; }
+    h2, h3 { font-size: 1.15rem; margin-top: 1.65rem; }
+    #zh-title { font-size: 1.6rem; }
+    a { color: var(--link); text-underline-offset: 0.18em; }
+    .meta { color: var(--muted); }
+    #zh { border-top: 1px solid var(--divider); margin-top: 3rem; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Languages">
+      <a href="#en" lang="en">English</a> · <a href="#zh" lang="zh-Hans">简体中文</a>
+    </nav>
+
+    <section id="en" aria-labelledby="en-title">
+      <h1 id="en-title">PulseNote Privacy Policy</h1>
+      <p class="meta">Effective and last updated <time datetime="2026-11-23">November 23, 2026</time></p>
+      <p>This policy covers the PulseNote (声记) app for iOS and Android. Recording, transcription, playback and search run on your device. PulseNote does not use accounts, upload your recordings or transcripts to a developer server, or include advertising or analytics SDKs.</p>
+
+      <h2>Recordings, imports and notes</h2>
+      <p>PulseNote requests microphone permission when you record. It can continue a recording you started while the app is in the background or the screen is locked. On supported Android versions it requests notification permission to show recording status. You can change these permissions in your device settings.</p>
+      <p>When you select an audio or video file through the system picker, the app uses its audio to create a local voice note. The app stores audio, transcripts, titles, timestamps, bookmarks, annotations and search data in its local files and database. Language and playback preferences are also stored locally.</p>
+
+      <h2>Voice pack downloads</h2>
+      <p>When you download an offline voice pack, PulseNote requests model files from services such as Hugging Face, GitHub and their mirrors. If a download source fails, the app may request a list of alternative sources from GitHub or jsDelivr. These services receive standard network information such as your IP address, the requested file and request headers under their own policies. These requests contain no recordings or transcripts. Downloaded packs are stored on your device and can be removed in Settings.</p>
+
+      <h2>Sharing and system backups</h2>
+      <p>You can copy transcripts to the system clipboard or share audio and transcript files through the system share sheet. The destination you choose may keep or sync its own copy. Depending on your device and settings, the operating system may include eligible app data in its backup or transfer features. On iOS you can also access the app’s documents through Files.</p>
+
+      <h2>Retention and deletion</h2>
+      <p>Notes are stored locally until you remove them. Deleting a note first moves it to Recently Deleted, where you can restore it, delete it permanently, or empty the folder. Permanent deletion removes the note and its transcript from the app database and removes the associated local audio when the file can be deleted. Copies in exports, other apps and system backups are managed separately.</p>
+
+      <h2>This website and privacy requests</h2>
+      <p>This page is hosted on GitHub Pages. GitHub logs visitors’ IP addresses for security. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+      <p>For privacy questions or requests, including applicable rights to access, correct or delete information, contact X App Team at <a href="mailto:longdabo@gmail.com">longdabo@gmail.com</a>. If you email us, we use the address and details you provide to respond. Please avoid sending recordings or transcripts. We will post policy updates here and revise the date above.</p>
+    </section>
+
+    <section id="zh" lang="zh-Hans" aria-labelledby="zh-title">
+      <h2 id="zh-title">声记（PulseNote）隐私政策</h2>
+      <p class="meta">生效及最后更新日期为 <time datetime="2026-11-23">2026 年 11 月 23 日</time></p>
+      <p>本政策适用于 iOS 和 Android 版声记（PulseNote）。录音、转写、回放和搜索均在设备上完成。声记无需注册账号，不会将录音或转写文本上传到开发者服务器，也未集成广告或分析 SDK。</p>
+
+      <h3>录音、导入与笔记</h3>
+      <p>录音时，声记会请求麦克风权限。你开始录音后，应用可以在后台或锁屏时继续录制。在支持的 Android 版本上，应用会请求通知权限，用于显示录音状态。你可以在系统设置中管理这些权限。</p>
+      <p>当你通过系统文件选择器选取音频或视频时，应用会使用其中的音轨创建本地语音笔记。音频、转写文本、标题、时间信息、书签、备注和搜索数据保存在应用的本地文件或数据库中。语言和播放偏好也保存在本机。</p>
+
+      <h3>下载语音包</h3>
+      <p>下载离线语音包时，声记会向 Hugging Face、GitHub 及其镜像等服务请求模型文件。下载源不可用时，应用可能从 GitHub 或 jsDelivr 获取备用下载地址。相关服务会收到 IP 地址、请求的文件及请求头等常规网络信息，并按各自的政策处理。下载请求不包含录音或转写文本。语音包保存在本机，你可以在设置中移除。</p>
+
+      <h3>分享与系统备份</h3>
+      <p>你可以将转写文本复制到系统剪贴板，也可以通过系统分享面板分享音频和转写文件。你选择的应用或服务可能保存或同步副本。根据设备和系统设置，符合条件的应用数据可能纳入操作系统的备份或迁移功能。在 iOS 上，你也可以通过「文件」访问应用文档。</p>
+
+      <h3>保留与删除</h3>
+      <p>笔记保存在设备上，直至你将其移除。删除笔记后，它会先进入「最近删除」。你可以在那里恢复、永久删除笔记，或清空列表。永久删除会从应用数据库移除笔记和转写内容，并在文件可删除时移除关联的本地音频。导出文件、其他应用中的副本及系统备份需分别管理。</p>
+
+      <h3>网页托管与隐私请求</h3>
+      <p>本网页托管于 GitHub Pages。GitHub 出于安全目的记录访问者的 IP 地址。详情见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+      <p>如有隐私问题或希望行使适用的访问、更正、删除等权利，可通过 <a href="mailto:longdabo@gmail.com">longdabo@gmail.com</a> 联系 X App Team。我们会使用你提供的邮箱和信息处理并回复请求。请避免在邮件中附上录音或转写文本。政策更新会发布在本页，并更新上方日期。</p>
+    </section>
+  </main>
+</body>
+</html>
